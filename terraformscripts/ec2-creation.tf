@@ -10,7 +10,7 @@ key_name = "redhatdevops"
 security_groups = ["launch-wizard-9"]
 tags = {
 Name = "tomcatservers"
-
+terraform destroy -target aws_instance= "tomcatsservers"
 }
 }
 
