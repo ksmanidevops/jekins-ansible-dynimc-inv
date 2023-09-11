@@ -9,7 +9,7 @@ instance_type = "t3.micro"
 key_name = "redhatdevops"
 security_groups = ["launch-wizard-9"]
 tags = {
-Name = "tomcatsservers"
+Name = "tomcatservers"
 }
 }
 
