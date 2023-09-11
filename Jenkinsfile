@@ -5,7 +5,7 @@ pipeline {
   label 'ansible'
   }
   environment {
-   AWS_EC2_PRIVATE_KEY=credentials('ec2-private-key') 
+   AWS_EC2_PRIVATE_KEY=credentials('myawskey') 
   }
   
   stages {
